@@ -1,0 +1,15 @@
+C:\Users\charl\OneDrive\Documents\Charlyn\Udemy\Developpeur_CSharp_complet\collections\programme_collections\programme_collections\bin\Debug\net6.0\programme_collections.exe
+C:\Users\charl\OneDrive\Documents\Charlyn\Udemy\Developpeur_CSharp_complet\collections\programme_collections\programme_collections\bin\Debug\net6.0\programme_collections.deps.json
+C:\Users\charl\OneDrive\Documents\Charlyn\Udemy\Developpeur_CSharp_complet\collections\programme_collections\programme_collections\bin\Debug\net6.0\programme_collections.runtimeconfig.json
+C:\Users\charl\OneDrive\Documents\Charlyn\Udemy\Developpeur_CSharp_complet\collections\programme_collections\programme_collections\bin\Debug\net6.0\programme_collections.dll
+C:\Users\charl\OneDrive\Documents\Charlyn\Udemy\Developpeur_CSharp_complet\collections\programme_collections\programme_collections\bin\Debug\net6.0\programme_collections.pdb
+C:\Users\charl\OneDrive\Documents\Charlyn\Udemy\Developpeur_CSharp_complet\collections\programme_collections\programme_collections\obj\Debug\net6.0\programme_collections.csproj.AssemblyReference.cache
+C:\Users\charl\OneDrive\Documents\Charlyn\Udemy\Developpeur_CSharp_complet\collections\programme_collections\programme_collections\obj\Debug\net6.0\programme_collections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\charl\OneDrive\Documents\Charlyn\Udemy\Developpeur_CSharp_complet\collections\programme_collections\programme_collections\obj\Debug\net6.0\programme_collections.AssemblyInfoInputs.cache
+C:\Users\charl\OneDrive\Documents\Charlyn\Udemy\Developpeur_CSharp_complet\collections\programme_collections\programme_collections\obj\Debug\net6.0\programme_collections.AssemblyInfo.cs
+C:\Users\charl\OneDrive\Documents\Charlyn\Udemy\Developpeur_CSharp_complet\collections\programme_collections\programme_collections\obj\Debug\net6.0\programme_collections.csproj.CoreCompileInputs.cache
+C:\Users\charl\OneDrive\Documents\Charlyn\Udemy\Developpeur_CSharp_complet\collections\programme_collections\programme_collections\obj\Debug\net6.0\programme_collections.dll
+C:\Users\charl\OneDrive\Documents\Charlyn\Udemy\Developpeur_CSharp_complet\collections\programme_collections\programme_collections\obj\Debug\net6.0\refint\programme_collections.dll
+C:\Users\charl\OneDrive\Documents\Charlyn\Udemy\Developpeur_CSharp_complet\collections\programme_collections\programme_collections\obj\Debug\net6.0\programme_collections.pdb
+C:\Users\charl\OneDrive\Documents\Charlyn\Udemy\Developpeur_CSharp_complet\collections\programme_collections\programme_collections\obj\Debug\net6.0\programme_collections.genruntimeconfig.cache
+C:\Users\charl\OneDrive\Documents\Charlyn\Udemy\Developpeur_CSharp_complet\collections\programme_collections\programme_collections\obj\Debug\net6.0\ref\programme_collections.dll
