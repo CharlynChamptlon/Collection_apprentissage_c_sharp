@@ -183,14 +183,15 @@ namespace programme_collections
 
         static void Dictionnaire()
         {
+            string personneAChercher = "Martin";
             var d = new Dictionary<string, string>();
             d.Add("Jean", "0682456972");
             d.Add("Marie", "0674235981");
             d["Martin"] = "0625147895";
 
-            if (d.ContainsKey("Toto"))
+            if (d.ContainsKey(personneAChercher))
             {
-                Console.WriteLine(d["Toto"]);
+                Console.WriteLine(d[personneAChercher]);
             }
             else
             {
@@ -199,13 +200,103 @@ namespace programme_collections
             
         }
 
+        static void BoucleForEach()
+        {
+            //var noms = new string[] { "Toto", "Jean", "Pierre" };
+            //var noms = new List<string> {"Toto","Jean","Pierre" };
+
+            
+
+            /*for (int i = 0; i < noms.Length; i++)
+            {
+                Console.WriteLine(noms[i]);
+            }
+            foreach (var nom in noms)
+            {
+                Console.WriteLine(nom);
+            }*/
+
+            var d = new Dictionary<string, string>();
+            d.Add("Jean", "0682456972");
+            d.Add("Marie", "0674235981");
+            d["Martin"] = "0625147895";
+
+            foreach(var e in d)
+            {
+                Console.WriteLine(e.Key + ": " + e.Value);
+            }
+
+        }
+
+        static void TrisEtLinq()
+        {
+            /*var noms = new string[] { "Toto", "Jean", "Pierre","Emilie","Sophie","Martin","Benoit","Vincent","Paul" };
+            //Tri si c'est une liste
+            //noms.Sort();
+            //Tri si c'est un tableau
+            //Array.Sort(noms);
+            var noms2 = noms.OrderByDescending(e => e[e.Length - 1]);
+            var noms3 = noms2.Where(nom => nom.Length > 4).ToList();
+
+            foreach (var nom in noms3)
+            {
+                Console.WriteLine(nom);
+            }*/
+
+            var notes = new List<int> { 4,8,1,9,2};
+            notes = notes.OrderBy(n => -n).ToList();
+            notes = notes.Where(n => n <= 5).ToList();
+            foreach (var note in notes)
+            {
+                Console.WriteLine(note);
+            }
+
+        }
+
+        static void MaFonction(out int p)
+        {
+            ///
+            p = 10;
+        }
+
+        static void MaFonction2(List<int> p)
+        {
+            p[0] = 10;
+        }
+        static void PassageValeursOuRef()
+        {
+            int a = 5;
+            //MaFonction(a);  //Passage par valeur
+            MaFonction(out a);  //Passage par ref
+            Console.WriteLine(a);
+
+            /*var l = new List<int> { 5};
+            MaFonction2(l);  //Passage par référence
+
+            Console.WriteLine(l[0]);*/
+
+            int num = 0;
+            if (int.TryParse("hfc",out num)){
+                Console.WriteLine(num);
+                num++;
+            }
+            else
+            {
+                Console.WriteLine("Problème de conversion");
+            }
+
+        }
+
         static void Main(string[] args)
         {
             //Tableaux();
             //Listes();
             //ArrayListe();
             //ListesDeListes();
-            Dictionnaire();
+            //Dictionnaire();
+            //BoucleForEach();
+            //TrisEtLinq();
+            PassageValeursOuRef(); 
         }
     }
 }
